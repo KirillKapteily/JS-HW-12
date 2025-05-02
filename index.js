@@ -1,10 +1,10 @@
-//1 ❌
+//1 
 const user = {
     name: "kirill",
     hobby: "programming",
     premium: true,
     mood: "ok",
-    
+
     change(newMood, newHobby, newPremium) {
         this.hobby = newHobby;
         this.mood = newMood;
@@ -12,7 +12,7 @@ const user = {
     }
 };
 user.change("happy", "skydiving", false)
-
+✅
 for (const key of Object.keys(user)) {
     console.log(`${key}: ${user[key]}`);
 }
