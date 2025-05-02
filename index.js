@@ -1,4 +1,4 @@
-//1 
+//1 ✅
 const user = {
     name: "kirill",
     hobby: "programming",
@@ -12,7 +12,7 @@ const user = {
     }
 };
 user.change("happy", "skydiving", false)
-✅
+
 for (const key of Object.keys(user)) {
     console.log(`${key}: ${user[key]}`);
 }
